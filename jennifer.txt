@@ -1,0 +1,8 @@
+Python class 14/09/2017:
+
+    Programs name           Links         Modulations
+    -------------           -----         -----------
+ 1.Snake and ladder
+ 2.Multiples
+ 3.Mail
+ 4.Rock,Paper,Scissors
