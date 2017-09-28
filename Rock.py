@@ -1,16 +1,17 @@
 #!/usr/bin/python3
+#Rock,Paper and Scissors.
 from random import randint 
-t = ["Rock", "Paper", "Scissors"]
-computer = t[randint(0,2)] 
+t = ["Rock", "Paper", "Scissors"]     #choice
+computer = t[randint(0,2)]        #computer's turn.
 player = False
 cs=0
 ps=0
 while player == False:
-    player = input("Rock, Paper, Scissors?")
+    player = input("Rock, Paper, Scissors?")       #player's turn.  
     if player == computer:
-        print("Tie!")
-        cs=cs+1
-        ps=ps+1
+        print("Tie!")         #player=computer
+        cs=cs+1        #computer's score is increased by 1.
+        ps=ps+1          #player's turn is increased by 1.
         print("Your score is:",ps)
         print("The computer's score is:",cs)
     elif player == "Rock":
