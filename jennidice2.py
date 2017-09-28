@@ -1,11 +1,12 @@
 #!/usr/bin/python3
+#snake and ladder.
 import random
 count=0
 r=0
 while count<=100:
 	roll=input("Press r to roll the dice:")
 	if roll=="r":
-		r=random.randint(1,6)
+		r=random.randint(1,6)   #gives a random number from 1 to 6.
 		count=count+r
 		print("Your random number is ",r)
 		if count==8:
