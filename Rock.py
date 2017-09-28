@@ -17,37 +17,37 @@ while player == False:
     elif player == "Rock":
         if computer == "Paper":
             print("You lose!", computer, "covers", player)
-            cs=cs+1
+            cs=cs+1       #player loses & computer's score is increased by 1.
             print("Your score is:",ps)
             print("The computer's score is:",cs)
         else:
             print("You win!", player, "smashes", computer)
-            ps=ps+1
+            ps=ps+1      #computer loses & player's turn is increased by 1.
             print("Your score is:",ps)
             print("The computer's score is:",cs)
     elif player == "Paper":
         if computer == "Scissors":
             print("You lose!", computer, "cut", player)
-            cs=cs+1
+            cs=cs+1      #player loses & computer's score is increased by 1.
             print("Your score is:",ps)
             print("The computer's score is:",cs)
         else:
             print("You win!", player, "covers", computer)
-            ps=ps+1
+            ps=ps+1         #computer loses & player's turn is increased by 1.
             print("Your score is:",ps)
             print("The computer's score is:",cs)
     elif player == "Scissors":
         if computer == "Rock":
             print("You lose...", computer, "smashes", player)
-            cs=cs+1
+            cs=cs+1        #player loses & computer's score is increased by 1.
             print("Your score is:",ps)
             print("The computer's score is:",cs)
         else:
             print("You win!", player, "cut", computer)
-            ps=ps+1
+            ps=ps+1        #computer loses & player's turn is increased by 1.
             print("Your score is:",ps)
             print("The computer's score is:",cs)
     else:
-        print("Check your spelling!")
+        print("Check your spelling!")   #if there is any mistake in spelling(lower & upper case).
     player = False
     computer = t[randint(0,2)]
