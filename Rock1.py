@@ -1,13 +1,13 @@
 #!/usr/bin/python3
-from random import randint 
-t = ["Rock", "Paper", "Scissors"]
-computer = t[randint(0,2)] 
+from random import randint    #importing random integer from random
+t = ["Rock", "Paper", "Scissors"]    #choices
+computer = t[randint(0,2)]    #gives random no. 0&2
 player = False
-while player == False:
-    player = input("Rock, Paper, Scissors?")
-    if player == computer:
-        print("Tie!")
-    elif player == "Rock":
+while player == False:   #while command
+    player = input("Rock, Paper, Scissors?")  #input command
+    if player == computer:   #if condition
+        print("Tie!")   #print command
+    elif player == "Rock":   #if else condition
         if computer == "Paper":
             print("You lose!", computer, "covers", player)
         else:
