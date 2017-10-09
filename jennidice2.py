@@ -1,19 +1,19 @@
 #!/usr/bin/python3
 #snake and ladder.
-import random
+import random    #importing random
 count=0
 r=0
-while count<=100:
-	roll=input("Press r to roll the dice:")
+while count<=100:  #while loop
+	roll=input("Press r to roll the dice:")  #input command
 	if roll=="r":
 		r=random.randint(1,6)   #gives a random number from 1 to 6.
-		count=count+r
-		print("Your random number is ",r)
-		if count==8:
+		count=count+r   #increases the count
+		print("Your random number is ",r)     #prints the random no.
+		if count==8:   #if condition
 			print("You are on count ",count)
 			count=37
 			print("Yoru climb on a ladder to ",count)
-		elif count==13:
+		elif count==13:   #if else condition
 			print("You are on count ",count)
 			count=34
 			print("You climb on a ladder to ",count)
