@@ -2,14 +2,14 @@
 import tweepy
  
 # personal information
-consumer_key ="7688979146"
-consumer_secret ="r9934816772"
-access_token ="priyavatsyap@gmail.com"
-access_token_secret ="r9934816772"
+consumer_key =""
+consumer_secret =""
+access_token ="@gmail.com"
+access_token_secret =""
  
 # authentication
-auth = tweepy.OAuthHandler(7688979146, r9934816772)
-auth.set_access_token(priyavatsyap@gmail.com, r9934816772)
+auth = tweepy.OAuthHandler(, )
+auth.set_access_token(@gmail.com, )
   
 api = tweepy.API(auth)
 tweet ="Text part of the tweet"
